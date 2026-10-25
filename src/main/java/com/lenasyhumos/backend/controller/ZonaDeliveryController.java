@@ -12,7 +12,7 @@ import com.lenasyhumos.backend.service.ZonaDeliveryService;
 
 @RestController
 @RequestMapping("/api/zonas-delivery")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class ZonaDeliveryController {
 
     private final ZonaDeliveryService zonaDeliveryService;

@@ -12,7 +12,7 @@ import com.lenasyhumos.backend.service.PagoService;
 
 @RestController
 @RequestMapping("/api/pagos")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class PagoController {
 
     private final PagoService pagoService;
